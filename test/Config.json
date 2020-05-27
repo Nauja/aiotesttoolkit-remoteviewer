@@ -1,0 +1,35 @@
+{
+	"children": [
+		{
+			"name": "test.test_pool",
+			"test_cases": [
+				{
+					"name": "PoolTestCase",
+					"tests": [
+						{"name": "test_create"},
+						{"name": "test_create_factory"},
+						{"name": "test_create_main"},
+						{"name": "test_start"},
+						{"name": "test_start_decorator1"},
+						{"name": "test_start_decorator2"},
+						{"name": "test_start_timeout"},
+						{"name": "test_gather"}
+					]
+				}
+			]
+		},
+		{
+			"name": "test.test_utils",
+			"test_cases": [
+				{
+					"name": "UtilsTestCase",
+					"tests": [
+						{"name": "test_new_event_loop"},
+						{"name": "test_delay"},
+						{"name": "test_timeout"}
+					]
+				}
+			]
+		}
+	]
+}

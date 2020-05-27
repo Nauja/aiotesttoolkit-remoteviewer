@@ -1,0 +1,12 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - python
+ratings:
+  paths:
+  - aiotesttoolkit_remoteviewer
+  - "**.py"
+exclude_paths:
+- tests
