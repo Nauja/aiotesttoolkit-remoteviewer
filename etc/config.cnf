@@ -1,0 +1,17 @@
+[service]
+port = 8080
+base-url = /
+jinja2-templates-dir = etc/templates
+static_dir = static
+
+[master]
+host=0.0.0.0
+port=8081
+
+[logging]
+;access-logfile = /var/log/service/access.log
+;access-maxbytes = 1000000
+;access-backupcount = 5
+;error-logfile = /var/log/service/error.log
+;error-maxbytes = 1000000
+;error-backupcount = 5
